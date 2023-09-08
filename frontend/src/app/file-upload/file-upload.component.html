@@ -1,0 +1,32 @@
+<div class="input_group">
+    <form (ngSubmit)="submitForm()" #fileForm="ngForm">
+      <label for="fileName">File name</label>
+      <input class="form-control form-control-lg" type="text" id="name" name="name" ngModel placeholder="file name" aria-label=".form-control-lg example">
+      
+      <label for="nodeType">Node Type</label>
+      <input class="form-control form-control-lg" type="text" id="nodeType" name="nodeType" ngModel placeholder="node Type" aria-label=".form-control-lg example">
+      
+      <label for="relativePath">Relative Path</label>
+      <input class="form-control form-control-lg" type="text" id="relativePath" name="relativePath" ngModel placeholder="relativePath" aria-label=".form-control-lg example">
+      
+      <label for="description">cm:description</label>
+      <input class="form-control form-control-lg" type="text" id="cm:description" name="cm:description" ngModel placeholder="cm:description" aria-label=".form-control-lg example">
+      
+      <label for="title">cm:title</label>
+      <input class="form-control form-control-lg" type="text" id="cm:title" name="cm:title" ngModel placeholder="cm:title" aria-label=".form-control-lg example">
+      
+      <label for="tag">Tag</label>
+      <input class="form-control form-control-lg" type="text" id="tag" name="tag" ngModel placeholder="tag" aria-label=".form-control-lg example">
+      
+      <label for="username">Username</label>
+      <input class="form-control form-control-lg" type="text" id="username" name="username" ngModel placeholder="username" aria-label=".form-control-lg example">
+      
+      <label for="password">Password</label>
+      <input class="form-control form-control-lg" type="text" id="password" name="password" ngModel placeholder="password" aria-label=".form-control-lg example">
+      
+      <label for="fileData">File data</label>
+      <input type="file" name="filedata" (change)="handleFileInput($event)">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+  

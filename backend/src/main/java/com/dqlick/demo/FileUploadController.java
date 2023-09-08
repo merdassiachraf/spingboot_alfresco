@@ -18,6 +18,7 @@ import org.springframework.web.multipart.MultipartFile;
 import org.apache.http.entity.StringEntity;
 import java.io.IOException;
 import com.fasterxml.jackson.databind.node.ObjectNode;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 
 @Controller
@@ -26,7 +27,7 @@ public class FileUploadController {
     @PostMapping("/upload/file")
     public ResponseEntity<JsonNode> uploadFile(
             //file upload form-data
-            @RequestParam("filedata") MultipartFile file,
+            @RequestParam("filedata") MultipartFile file, // Use the correct parameter name
             @RequestParam("name") String name,
             @RequestParam("relativePath") String relativePath,
             @RequestParam("nodeType") String nodeType,

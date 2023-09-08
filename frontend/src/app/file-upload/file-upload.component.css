@@ -1,0 +1,11 @@
+.input_group {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-control-lg {
+    margin-bottom: 15px;
+  }
+  
