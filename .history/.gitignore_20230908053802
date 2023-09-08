@@ -15,7 +15,7 @@ target/
 
 
 ./frontend/node_modules
-./frontend/.angular
+./frontend/node_modules
 ./frontend/history
 ### IntelliJ IDEA ###
 ./backend/idea

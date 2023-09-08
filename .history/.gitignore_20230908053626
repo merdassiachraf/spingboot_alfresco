@@ -5,20 +5,16 @@ target/
 !**/src/test/**/target/
 
 ### STS ###
-./backend/apt_generated
-./backend/classpath
-./backend/factorypath
-./backend/project
-./backend/settings
-./backend/springBeans
-./backend/sts4-cache
+./backendapt_generated
+./backendclasspath
+./backendfactorypath
+./backendproject
+./backendsettings
+./backendspringBeans
+./backendsts4-cache
 
-
-./frontend/node_modules
-./frontend/.angular
-./frontend/history
 ### IntelliJ IDEA ###
-./backend/idea
+./backendidea
 *.iws
 *.iml
 *.ipr

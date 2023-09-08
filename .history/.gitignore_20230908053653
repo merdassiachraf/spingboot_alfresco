@@ -14,9 +14,7 @@ target/
 ./backend/sts4-cache
 
 
-./frontend/node_modules
-./frontend/.angular
-./frontend/history
+./
 ### IntelliJ IDEA ###
 ./backend/idea
 *.iws
